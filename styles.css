@@ -1,0 +1,363 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat";
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+}
+
+textarea:focus, input:focus{
+  outline: none;
+}
+
+button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: white;
+  text-transform: uppercase;
+  background-color: #381DDB;
+  border-color: #381DDB;
+  border-radius: 8px;
+  padding: 0.9vw 1.8vw;
+  cursor: pointer;
+}
+
+button:active {
+  opacity: 0.9;
+}
+
+h3 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 120%;
+  color: #222222;
+}
+
+.cover-wrapper {
+  background-image: url(./images/header-background.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vw;
+}
+
+.cover-header {
+  background-color: #000a;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-right: 20vw;
+}
+
+.cover-menu {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.cover-menu-item {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  margin-right: 40px;
+}
+
+.cover-header-button {
+  color: #381DDB;
+  background-color: white;
+  border-color: white;
+}
+
+.centered-body {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60vw;
+}
+
+.section-vertical-padding {
+  padding-top: 5vw;
+  padding-bottom: 5vw;
+}
+
+.cover-body-title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 72px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #FFF;
+}
+
+.cover-body-content {
+  font-family: 'Raleway';
+  font-size: 24px;
+  line-height: 38px;
+  text-align: center;
+  color: #FFF;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.cover-body-actions {
+  display: flex;
+  justify-content: center;
+}
+
+.cover-body-button {
+  background-color: #FC5252;
+  border-color: #FC5252;
+}
+
+.cover-footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cover-time {
+  font-weight: 700;
+  font-size: 128px;
+  line-height: 132px;
+  opacity: 0.9;
+  color: #FFF;
+}
+
+.topic-header {
+  margin-top: 12vw;
+  text-align: center;
+}
+
+.card-list {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.card-item {
+  background: #381DDB;
+  color: #222222;
+  border-radius: 24px;
+  width: 18vw;
+  height: 18vw;
+
+}
+
+.card-active {
+  color: white;
+}
+
+.card-orange {
+  background-color: #DB841D1A;
+}
+.card-red {
+  background-color: #FC52521A;
+}
+.card-pink {
+  background-color: #C000961A;
+}
+.card-blue {
+  background-color: #84C4FF1A;
+}
+
+.card-content {
+  padding: 3vw 1vw 1vw 1vw;
+}
+
+.card-title {
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 24px;
+  padding-top: 16px;
+  padding-bottom: 8px;
+}
+
+.card-description {
+  font-family: 'Raleway';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  opacity: 0.7;
+}
+
+.topic-about {
+  display: flex;
+  padding-top: 12vw;
+}
+
+.topic-about-images {
+  position: relative;
+  width: 27vw;
+  height: 27vw;
+  margin-right: 3.6vw;
+}
+
+.about-image-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24vw;
+  height: 24vw;
+  z-index: 1;
+}
+
+.about-image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 24vw;
+  height: 24vw;
+  z-index: 2;
+}
+
+.topic-speaker {
+  display: flex;
+  padding-top: 12vw;
+}
+
+.topic-speaker-images {
+  flex-shrink: 0;
+  position: relative;
+  height: 37vw;
+  width: 35vw;
+  margin-left: 1.5vw;
+}
+
+.speaker-image-1 {
+  position: absolute;
+  left: 0;
+  top: 2.6vw;
+  width: 19vw;
+  height: 14vw;
+}
+
+.speaker-image-2 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 14vw;
+  height: 16.5vw;
+}
+
+.speaker-image-3 {
+  position: absolute;
+  left: 0;
+  bottom: 2vw;
+  width: 14vw;
+  height: 16.5vw;
+}
+
+.speaker-image-4 {
+  position: absolute;
+  right: 0;
+  bottom: 4.7vw;
+  width: 19vw;
+  height: 14vw;
+}
+
+.topic-description {
+  font-family: 'Raleway';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #222222;
+  opacity: 0.7;
+  padding-top: 1.6vw;
+  padding-bottom: 4.2vw;
+}
+
+@media screen and (max-width: 1910px) {
+  .centered-body {
+    width: 80vw;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+  }
+
+  .cover-body-title {
+    font-size: 56px;
+    line-height: 64px;
+  }
+
+  .cover-body-content {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  .cover-time {
+    font-size: 96px;
+    line-height: 102px;
+  }
+
+  .topic-title {
+    text-align: start;
+    margin-top: 8vw;
+  }
+
+  .card-list {
+    padding-top: 40px;
+  }
+
+  .topic-about {
+    padding-top: 8vw;
+  }
+
+  .topic-speaker {
+    padding-top: 8vw;
+  }
+}
+
+@media screen and (max-width: 1190px) {
+  .centered-body {
+    width: 90vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+  }
+
+  .cover-body-title {
+    font-size: 48px;
+    line-height: 56px;
+  }
+
+  .cover-body-content {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .cover-time {
+    font-size: 80px;
+    line-height: 84px;
+  }
+
+  .topic-title {
+    margin-top: 5vw;
+  }
+
+  .card-list {
+    padding-top: 20px;
+  }
+
+  .topic-about {
+    padding-top: 5vw;
+  }
+
+  .topic-speaker {
+    padding-top: 5vw;
+  }
+}

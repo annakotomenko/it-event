@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <title>IT Конференция</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="schedule-styles.css">
+    <link rel="stylesheet" href="price-styles.css">
+    <link rel="stylesheet" href="sponsor-styles.css">
+    <link rel="stylesheet" href="contacts-styles.css">
+  </head>
+  <body>
+    <!-- Cover Section -->
+    <section class="cover-wrapper">
+      <div class="cover-header">
+        <ul class="cover-menu">
+          <li class="cover-menu-item">
+            <a href="#topics">Темы</a>
+          </li>
+          <li class="cover-menu-item">
+            <a href="#schedule">Расписание</a>
+          </li>
+          <li class="cover-menu-item">
+            <a href="#prices">Цены</a>
+          </li>
+          <li class="cover-menu-item">
+            <a href="#contacts">Контакты</a>
+          </li>
+          <button class="cover-header-button">
+            Get tickets
+          </button>
+        </ul>
+      </div>
+      <div class="centered-body section-vertical-padding">
+        <h1 class="cover-body-title">
+          Great Developers 2023
+        </h1>
+        <p class="cover-body-content">
+          Крупнейшая в России конференция по тестированию программного обеспечения.  2 дня программы выступления разного формата:  от 25 до 45 минут и более, с 10 утра до 4 вечера.
+        </p>
+        <div class="cover-body-actions">
+          <button class="cover-body-button">Get Started</button>
+        </div>
+      </div>
+      <div class="cover-footer">
+        <p class="cover-time" id="countdown-day">22d</p>
+        <p class="cover-time" id="countdown-hour">13h</p>
+        <p class="cover-time" id="countdown-minute">46m</p>
+        <p class="cover-time" id="countdown-second">18s</p>
+      </div>
+    </section>
+
+    <!-- Topics Section -->
+    <section id="topics">
+      <h3 class="topic-header">ТЕМЫ КОНФЕРЕНЦИИ</h3>
+      <div class="card-list">
+        <div class="card-item card-orange">
+          <div class="card-content">
+            <img src="images/card-icon.png" />
+            <p class="card-title">Доклад</p>
+            <p class="card-description">
+              Как тестировать требования легко и просто
+            </p>
+          </div>
+        </div>
+
+        <div class="card-item card-red">
+          <div class="card-content">
+            <img src="images/card-icon.png" />
+            <p class="card-title">Доклад</p>
+            <p class="card-description">
+              Техники тест-дизайна на примере выдачи QR-кодов
+            </p>
+          </div>
+        </div>
+
+        <div class="card-item card-active">
+          <div class="card-content">
+            <img src="images/card-icon.png" />
+            <p class="card-title">Доклад от партнера</p>
+            <p class="card-description">
+              Инструменты автоматизации тестовой модели
+            </p>
+          </div>
+        </div>
+
+        <div class="card-item card-pink">
+          <div class="card-content">
+            <img src="images/card-icon.png" />
+            <p class="card-title">Доклад</p>
+            <p class="card-description">
+              Восстание машин: ChatGPT vs статический анализатор
+            </p>
+          </div>
+        </div>
+
+        <div class="card-item card-blue">
+          <div class="card-content">
+            <img src="images/card-icon.png" />
+            <p class="card-title">Мастер-класс</p>
+            <p class="card-description">
+              Как ускорить прогон тестов в многомодульном проекте Maven
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="centered-body section-vertical-padding">
+        <div class="topic-about">
+          <div class="topic-about-images">
+            <img class="about-image-bg" src="./images/about-bg.png" />
+            <img class="about-image" src="./images/about.png" />
+          </div>
+          <div class="topic-about-content">
+            <h3>
+              Подробнее о теме
+            </h3>
+            <div class="topic-description">
+              Инструменты автоматизации тестовой модели
+            </div>
+            <div class="topic-about-actions">
+              <button>Подробнее</button>
+            </div>
+          </div>
+        </div>
+        <div class="topic-speaker">
+          <div class="topic-speaker-content">
+            <h3>
+              Спикеры
+            </h3>
+            <div class="topic-description">
+              Доклады и дискуссии для специалистов разных профилей: QA-инженеров, разработчиков, тимлидов, директоров по качеству. Конференция больше ориентирована на технологии, чем на процессы и методологии.
+            </div>
+            <div class="topic-speaker-actions">
+              <button>О спикерах</button>
+            </div>
+          </div>
+          <div class="topic-speaker-images">
+            <img class="speaker-image-1" src="./images/speaker-1.png" />
+            <img class="speaker-image-2" src="./images/speaker-2.png" />
+            <img class="speaker-image-3" src="./images/speaker-3.png" />
+            <img class="speaker-image-4" src="./images/speaker-4.png" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Schedule Section -->
+    <section class="schedule-section" id="schedule">
+      <div class="centered-body ">
+        <h3 class="schedule-header">
+          Расписание событий
+        </h3>
+  
+        <div class="schedule-days">
+          <div class="schedule-day schedule-day-active">
+            <p class="schedule-day-title day-title-active">
+              День 1
+            </p>
+            <p class="schedule-day-date day-date-active">
+              29 Декабря
+            </p>
+          </div>
+  
+          <div class="schedule-day">
+            <p class="schedule-day-title">
+              День 2
+            </p>
+            <p class="schedule-day-date">
+              30 Декабря
+            </p>
+          </div>
+  
+          <div class="schedule-day">
+            <p class="schedule-day-title">
+              День 3
+            </p>
+            <p class="schedule-day-date">
+              31 Декабря
+            </p>
+          </div>
+        </div>
+  
+        <table class="schedule-table">
+          <tr class="table-header">
+            <th>Время</th>
+            <th>Контент</th>
+            <th>Спикеры</th>
+          </tr>
+          <tr>
+            <td class="time-column">10:00 - 12:00</td>
+            <td class="table-text">
+              Как тестировать требования легко и просто
+            </td>
+            <td class="table-speaker-cell">
+              <div class="speaker-card">
+                <img class="speaker-avatar" src="images/avatar-1.png" />
+                <div>
+                  <p class="table-text">Яна Голикова</p>
+                  <p class="table-text speaker-company">Контур</p>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="time-column">12:30 - 15:00</td>
+            <td class="table-text">
+              Техники тест-дизайна на примере выдачи QR-кодов
+            </td>
+            <td class="table-speaker-cell">
+              <div class="speaker-card">
+                <img class="speaker-avatar" src="images/avatar-2.png" />
+                <div>
+                  <p class="table-text">Владимир Банин</p>
+                  <p class="table-text speaker-company">KKC</p>
+                </div>
+              </div>
+  
+              <div class="speaker-card">
+                <img class="speaker-avatar" src="images/avatar-1.png" />
+                <div>
+                  <p class="table-text">Яна Голикова</p>
+                  <p class="table-text speaker-company">Контур</p>
+                </div>
+              </div>
+  
+              <div class="speaker-card">
+                <img class="speaker-avatar" src="images/avatar-3.png" />
+                <div>
+                  <p class="table-text">Василий Васильев</p>
+                  <p class="table-text speaker-company">Digital Want</p>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="time-column">15:00 - 16:00</td>
+            <td class="table-text">
+              Восстание машин ChatGPT vs Статический анализатор
+            </td>
+            <td class="table-speaker-cell">
+              <div class="speaker-card">
+                <img class="speaker-avatar" src="images/avatar-4.png" />
+                <div>
+                  <p class="table-text">Саша Толстова</p>
+                  <p class="table-text speaker-company">SimbirSoft</p>
+                </div>
+              </div>
+  
+              <div class="speaker-card">
+                <img class="speaker-avatar" src="images/avatar-5.png" />
+                <div>
+                  <p class="table-text">Диана Ливанова</p>
+                  <p class="table-text speaker-company">TESTRED</p>
+                </div>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </section>
+
+    <!-- Price Section -->
+    <section class="centered-body price-section" id="prices">
+      <h3>
+        Выберите Тариф
+      </h3>
+
+      <div class="price-list">
+        <div class="price-card">
+          <div class="card-indicator"></div>
+          <div class="price-type">Один день</div>
+          <div class="price-number">2000 Рублей</div>
+          <p class="price-option active-option">
+            Все доклады
+          </p>
+          <p class="price-option">
+            Вопросы спикерам
+          </p>
+          <p class="price-option">
+            Free Food & Coffee
+          </p>
+
+          <div class="price-card-actions">
+            <button class="price-button alt-price-button">
+              Get Tickets
+            </button>
+          </div>
+        </div>
+
+        <div class="price-card blue-price">
+          <div class="card-indicator"></div>
+          <div class="price-type">Два дня</div>
+          <div class="price-number">3500 Рублей</div>
+          <p class="price-option active-option">
+            Все доклады
+          </p>
+          <p class="price-option active-option">
+            Вопросы спикерам
+          </p>
+          <p class="price-option">
+            Free Food and Coffee
+          </p>
+
+          <div class="price-card-actions">
+            <button class="price-button">
+              Get Tickets
+            </button>
+          </div>
+        </div>
+
+        <div class="price-card red-price">
+          <div class="card-indicator"></div>
+          <div class="price-type">Два дня + afterparty</div>
+          <div class="price-number">5100 Рублей</div>
+          <p class="price-option active-option">
+            Все доклады и мастер-классы
+          </p>
+          <p class="price-option active-option">
+            Afterparty
+          </p>
+          <p class="price-option active-option">
+            Free Food and Coffee
+          </p>
+
+          <div class="price-card-actions">
+            <button class="price-button alt-price-button">
+              Get Tickets
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sponsor Section -->
+    <section class="centered-body sponsor-section">
+      <h3>Наши спонсоры</h3>
+
+      <div class="sponsor-list">
+        <div class="sponsor-wrapper">
+          <img class="sponsor-image" src="./images/google.png" />
+        </div>
+        <div class="sponsor-wrapper">
+          <img class="sponsor-image" src="./images/microsoft.png" />
+        </div>
+        <div class="sponsor-wrapper">
+          <img class="sponsor-image" src="./images/airbnb.png" />
+        </div>
+        <div class="sponsor-wrapper">
+          <img class="sponsor-image" src="./images/axure.png" />
+        </div>
+        <div class="sponsor-wrapper">
+          <img class="sponsor-image" src="./images/apple.png" />
+        </div>
+        <div class="sponsor-wrapper">
+          <img class="sponsor-image" src="./images/facebook.png" />
+        </div>
+        <div class="sponsor-wrapper">
+          <img class="sponsor-image" src="./images/nokia.png" />
+        </div>
+        <div class="sponsor-wrapper">
+          <img class="sponsor-image" src="./images/oracle.png" />
+        </div>
+      </div>
+
+      <div class="sponsor-actions">
+        <button>
+          Стать спонсором
+        </button>
+      </div>
+    </section>
+
+    <section class="contacts-section" id="contacts">
+      <div class="contact-us-block">
+        <div class="contact-us-inner">
+          <div class="contact-title">Наши контакты</div>
+          <div class="contact-description">Остались вопросы? Напиши нам!</div>
+
+          <div class="contact-address">
+            <div class="contact-row">
+              <img class="contact-image" src="./images/phone.png" />
+              <p class="contact-item">
+                +92 333 6527366
+              </p>
+            </div>
+
+            <div class="contact-row">
+              <img class="contact-image" src="./images/email.png" />
+              <p class="contact-item">
+                event@gmail.com
+              </p>
+            </div>
+
+            <div class="contact-row">
+              <img class="contact-image" src="./images/map.png" />
+              <p class="contact-item">
+                Москва, Бульвар Энтузиастов д. 9, БЦ "Воронец"
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="shape-wrapper">
+          <img src="./images/shape.png" />
+        </div>
+      </div>
+
+      <div class="contact-form-wrapper">
+        <div class="contact-form-inner">
+          <div class="contact-form-title">
+            Если нужно больше деталей
+          </div>
+
+          <form>
+            <label class="form-label">
+              Имя
+              <input type="text" class="form-input" value="Иван Иванов" />
+            </label>
+
+            <label class="form-label">
+              Email
+              <input type="text" class="form-input" value="ivanov@gmail.com" />
+            </label>
+
+            <label class="form-label">
+              Текст сообщения
+              <input type="text" class="form-input" value="Здесь можно написать свой вопрос, свое предложение" />
+            </label>
+
+            <button class="form-button">Отправить</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>

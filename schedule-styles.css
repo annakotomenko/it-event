@@ -1,0 +1,120 @@
+.schedule-section {
+  background: linear-gradient(180deg, rgba(56, 29, 219, 0.05) 0%, rgba(56, 29, 219, 0) 100%);
+}
+
+.schedule-header {
+  padding-top: 8vw;
+  padding-bottom: 3.2vw;
+}
+
+.schedule-days {
+  display: flex;
+  justify-content: space-between;
+}
+
+.schedule-day {
+  width: 32%;
+  padding-bottom: 20px;
+  border-bottom: 4px solid #381DDB1A;
+}
+
+.schedule-day-active {
+  border-bottom: 4px solid #381DDB;
+}
+
+.schedule-day-title {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 38px;
+  color: #222222;
+  opacity: 0.5;
+}
+
+.day-title-active {
+  color: #381DDB;
+  opacity: 1;
+}
+
+.schedule-day-date {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #222222;
+  opacity: 0.2;
+}
+
+.day-date-active {
+  color: #381DDB;
+  opacity: 0.5;
+}
+
+.schedule-table {
+  border-spacing: 0;
+  width: 100%;
+  margin-top: 40px;
+  box-sizing: border-box;
+  border: 1px solid #E0E0E0;
+  border-radius: 24px;
+  overflow: hidden;
+}
+
+.schedule-table th, td {
+  text-align: start;
+  padding: 2vw;
+}
+
+.schedule-table td {
+  border-bottom: 1px solid #E0E0E0;
+}
+
+.schedule-table tr:last-child > td {
+  border-bottom: none;
+}
+
+.table-header {
+  background-color: #381DDB0D;
+}
+
+.table-header th {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  color: #222222;
+}
+
+.time-column {
+  font-family: 'Raleway';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #222222;
+}
+
+.table-text {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #222222;
+}
+
+.speaker-card {
+  display: flex;
+  padding-bottom: 1.7vw;
+}
+
+.speaker-card:last-child {
+  padding-bottom: 0;
+}
+
+.speaker-avatar {
+  padding-right: 10px;
+  width: 56px;
+  height: 56px;
+}
+
+.speaker-company {
+  font-weight: 400;
+  opacity: 0.5;
+}

@@ -1,0 +1,27 @@
+.sponsor-section {
+  padding-top: 12.5vw;
+}
+
+.sponsor-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 3vw;
+  padding-bottom: 1vw;
+}
+
+.sponsor-wrapper {
+  width: 12vw;
+  margin-bottom: 3vw;
+  margin-right: 7vw;
+}
+
+.sponsor-image {
+  width: 100%;
+}
+
+.sponsor-actions {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
